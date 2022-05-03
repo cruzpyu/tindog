@@ -1,2 +1,1 @@
-# tindog
-Tinder para doguinhos
+TinDog Starting Files
