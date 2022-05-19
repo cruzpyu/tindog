@@ -1,10 +1,7 @@
-#title {
-    background-color: #ff4c68;
-    color: #fff;
-    text-align: left;
-}
+
 #title .container-fluid {
     padding: 3% 15% 7%;
+    text-align: left;
 }
 
 p {
@@ -78,7 +75,6 @@ h3 {
 
 /* _____________________________________Features Section______________________________________________________________*/
 #features {
-    background-color: #fff;
     position: relative;
 }
 
@@ -96,9 +92,8 @@ h3 {
 }
 
 /* ____________________________________testimonials section______________________________________________________________*/
-#testimonials {
+#testimonials, #press {
     background-color: #ef8172;
-    color: #fff;
 }
 
 .testimonial-image {
@@ -108,7 +103,6 @@ h3 {
 }
 
 #press {
-    background-color: #ef8172;
     padding-bottom: 3%;
 }
 
@@ -138,15 +132,9 @@ h3 {
 }
 
 #cta {
-    background-color: #ff4c68;
-    color: #fff;
     font-weight: bold;
     font-family: 'montserrat-bold', sans-serif;
     padding: 13% 15%;
-}
-
-#footer {
-    background-color: #fff;
 }
 
 .social-icon {
@@ -174,4 +162,13 @@ h3 {
     #title {
         text-align: center;
     }
+}
+
+/* _____________________________________Sections______________________________________________________________*/
+.colored-section {
+background-color: #ff4c68;
+color: #fff;
+}
+.white-section {
+    background-color: #fff;
 }
